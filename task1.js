@@ -29,16 +29,16 @@ class learner extends tutor
     {
         console.log(`The corresponding tutor for learner ${lname} is ${this.name}`);
     }
-    agelimit(age)
+    agelimit()
     {
-        console.log( `Minimum age limit for Learners is ${age} years`);
+        console.log( `Minimum age limit for Learners is 15 years`);
     }
 }
 
 let obj2= new learner('smith','maths');
 obj2.tutordetails();
 obj2.learner('david');
-obj2.agelimit(15);
+obj2.agelimit();
 let obj1=new tutor();
 obj1.agelimit();
 
